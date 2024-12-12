@@ -1677,7 +1677,7 @@ var (
 			HideFromDocs: true,
 		},
 		{
-			Name:         "prometheusQuotesAndSpecialCharsInLabelValues",
+			Name:         "prometheusSpecialCharsInLabelValues",
 			Description:  "Adds support for quotes and special characters in label values for Prometheus queries",
 			FrontendOnly: true,
 			Stage:        FeatureStageExperimental,

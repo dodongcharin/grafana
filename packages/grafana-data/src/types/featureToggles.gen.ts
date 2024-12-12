@@ -242,5 +242,5 @@ export interface FeatureToggles {
   azureMonitorEnableUserAuth?: boolean;
   alertingNotificationsStepMode?: boolean;
   feedbackButton?: boolean;
-  prometheusQuotesAndSpecialCharsInLabelValues?: boolean;
+  prometheusSpecialCharsInLabelValues?: boolean;
 }
