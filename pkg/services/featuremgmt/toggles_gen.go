@@ -902,4 +902,8 @@ const (
 	// FlagFeedbackButton
 	// Enables a button to send feedback from the Grafana UI
 	FlagFeedbackButton = "feedbackButton"
+
+	// FlagPrometheusQuotesAndSpecialCharsInLabelValues
+	// Adds support for quotes and special characters in label values for Prometheus queries
+	FlagPrometheusQuotesAndSpecialCharsInLabelValues = "prometheusQuotesAndSpecialCharsInLabelValues"
 )

@@ -1676,6 +1676,13 @@ var (
 			Owner:        grafanaOperatorExperienceSquad,
 			HideFromDocs: true,
 		},
+		{
+			Name:         "prometheusQuotesAndSpecialCharsInLabelValues",
+			Description:  "Adds support for quotes and special characters in label values for Prometheus queries",
+			FrontendOnly: true,
+			Stage:        FeatureStageExperimental,
+			Owner:        grafanaObservabilityMetricsSquad,
+		},
 	}
 )
 
